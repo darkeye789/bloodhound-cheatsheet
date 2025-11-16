@@ -150,9 +150,7 @@ Then upload the ZIP file into BloodHound.
 
 Inside this repository, open:
 
-```
-/cheatsheet/queries.md
-```
+[cheatsheet/queries.md](cheatsheet/queries.md)
 
 This file contains:
 
