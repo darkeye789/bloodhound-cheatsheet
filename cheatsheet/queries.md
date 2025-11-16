@@ -173,3 +173,11 @@ MATCH (n)
 WHERE n.highvalue = true
 RETURN n.name AS HighValueObject, labels(n) AS Type
 ```
+
+## 🔗 Explore Query Tiers
+
+To explore the BloodHound query tiers, navigate to the appropriate level:
+
+- **Beginner Queries**: [Beginner Tier](beginner-queries.md)  
+- **Intermediate Queries**: [Intermediate Tier](intermediate-queries.md)  
+- **Advanced Queries**: [Advanced Tier](advanced-queries.md)
