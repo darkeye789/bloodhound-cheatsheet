@@ -173,12 +173,3 @@ MATCH (n)
 WHERE n.highvalue = true
 RETURN n.name AS HighValueObject, labels(n) AS Type
 ```
-
----
-
-If you want, I can generate:
-
-* A more advanced query set
-* Separate files (beginner / intermediate / advanced)
-* A visual graph map of recommended queries
-* Color-coded categories for GitHub formatting
